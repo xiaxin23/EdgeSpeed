@@ -1,14 +1,14 @@
-# Edge-Device-Operating-Framework
+# EdgeSpeed
 
 > A flexible and efficient edge computing framework for ML inference and distributed processing.
 
 ## 项目简介
 
-**Edge-Device-Operating-Framework**（简称 **Edge Framework**）是一个面向边缘计算场景的开源框架，目标是在各种边缘设备上提供统一的 **机器学习推理、数据处理与分布式计算** 能力。
+**EdgeSpeed**是一个面向边缘计算场景的开源框架，目标是在各种边缘设备上提供统一的 **机器学习推理、数据处理与分布式计算** 能力。
 
 框架支持多种边缘设备形态（嵌入式设备、移动设备、工业网关等），既可以在本地完成高效推理，也可以与云端协同工作，从而显著提升边缘设备的智能化水平和资源利用效率。
 
-Edge Framework 在设计上重点关注：
+EdgeSpeed 在设计上重点关注：
 
 - **性能优化**：低延迟、高吞吐，充分利用硬件加速能力  
 - **易用性**：统一 API、模块化设计、开箱即用的示例  
@@ -22,17 +22,17 @@ Edge Framework 在设计上重点关注：
   支持多种边缘设备和操作系统，包括：  
   - Linux（x86 / ARM）  
   - Android  
-  - 定制嵌入式系统（如基于 Yocto、OpenWrt 等）
+  - 定制嵌入式系统等
 
 - ⚡ **高效推理引擎**  
-  - 集成多种主流机器学习框架：**TensorFlow Lite、ONNX Runtime、PyTorch** 等  
+  - 集成多种主流机器学习框架：**PyTorch** 等  
   - 支持自定义模型格式和推理后端  
   - 针对边缘场景进行算子融合、内存复用等优化
 
 - 🪶 **轻量级与低延迟**  
   - 支持模型量化（INT8 / FP16 等）与剪枝  
-  - 支持 GPU、TPU、NPU 等多种硬件加速  
-  - 面向实时应用场景（如视频分析、语音识别）进行了延迟优化
+  - 支持 GPU、（TPU）、NPU 等多种硬件加速  
+  - 面向XXX场景（如视频分析、语音识别）进行了延迟优化
 
 - 🧹 **数据预处理 & 后处理**  
   - 内置多模态数据管线：图像、视频、语音、传感器数据等  
