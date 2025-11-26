@@ -71,10 +71,10 @@ EdgeSpeed 在设计上重点关注：
 
 > ⚠️ 还不确定，可以找一些论文里的能描述结构的图来描述
 <p align="center">
-  <img src="LOGO.png" alt="EdgeSpeed" width="160">
+  <img src="fine-tuning_modes_page.jpg" alt="EdgeSpeed" width="160">
 </p>
 <p align="center">
-  <img src="LOGO.png" alt="EdgeSpeed" width="160">
+  <img src="overview_system_page.jpg" alt="EdgeSpeed" width="160">
 </p>
 
 Edge Framework 采用模块化架构，大致可分为以下几个子系统：
