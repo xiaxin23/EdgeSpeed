@@ -102,7 +102,7 @@ Edge Framework 采用模块化架构，大致可分为以下几个子系统：
 
 ### 通过 pip 安装（示例）
 
-> 等你发布到 PyPI 后可以改成正式命令。
+> 之后发布到 PyPI 后可以改成正式命令。
 
 ```bash
-pip install edge-device-operating-framework
+pip install edgespeed
